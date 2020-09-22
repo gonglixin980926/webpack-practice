@@ -53,7 +53,6 @@
 // o1.fn()
 // o1.f2()
 
-
 //可用来判断是否是new创建
 // var Demo = function(){}
 // Demo.prototype.show = function(){
