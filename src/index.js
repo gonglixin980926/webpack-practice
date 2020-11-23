@@ -80,3 +80,4 @@ if(a){
 let testBool = [false,true]
 let bo = testBool.every(item=>item)
 console.log(bo)
+console.log(`注释`)
