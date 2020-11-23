@@ -119,5 +119,3 @@ const someFunction = (a:any, b:any, c:any) => {
   boundSomeFunction(1,2).subscribe(values => {
     console.log(values) // [5, 'some string', {someProperty: 'someValue'}]
   });
-
-console.log(`rx`)
