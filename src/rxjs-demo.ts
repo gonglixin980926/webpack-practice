@@ -120,3 +120,4 @@ const someFunction = (a:any, b:any, c:any) => {
     console.log(values) // [5, 'some string', {someProperty: 'someValue'}]
   });
 
+console.log(`rx`)
