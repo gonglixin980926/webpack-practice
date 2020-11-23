@@ -195,3 +195,4 @@ let arr = [1,3,4,5]
 arr.forEach(item=>{
     console.log(item)
 })
+console.log('sssss')
