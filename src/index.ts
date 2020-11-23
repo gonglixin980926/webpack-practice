@@ -3,6 +3,8 @@ import axios from 'axios'
 import "reflect-metadata"
 // import './decorator-demo'
 import './rxjs-demo'
+import { TimeoutError } from "rxjs"
+import { timeout } from "rxjs/operators"
 
 
 // import './type-demo'
@@ -190,8 +192,43 @@ import './rxjs-demo'
 // }
 // console.log(a?.child?.number)
 
-console.log(`ss`)
-let arr = [1,3,4,5]
-arr.forEach(item=>{
-    console.log(item)
-})
+// console.log(`ss`)
+// let arr = [1,3,4,5]
+// arr.forEach(item=>{
+//     console.log(item)
+// })
+function foo1(){
+    let b = 6 
+    return ()=>{
+        let c = b
+        return c
+    }
+}
+let memory = foo1()()
+console.log(memory)
+
+class Test {
+    constructor(){
+        let oBt = document.body
+        let debounce = this.debounce(()=>{
+            console.log(`this is debounce func`)
+        },0)
+        oBt.addEventListener('mousemove',()=>{
+            debounce()
+        })
+    }
+    debounce(func: Function, wait: number) {
+        let timer:any = null;
+        return () => {
+            // func.apply(this)
+          let context = this; // 注意 this 指向             
+          if (timer) clearTimeout(timer);
+          timer = setTimeout(() => {
+            func.apply(this)
+          }, 0)
+        }
+    }
+
+    
+}
+let test = new Test()

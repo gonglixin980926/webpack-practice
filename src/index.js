@@ -62,3 +62,21 @@
 // obj.show()
 // let obj2 = Demo()
 // console.log(obj2)
+
+let obt = document.getElementById('oBt')
+console.log(obt)
+obt.addEventListener('click',()=>{
+    let ipt = document.getElementById('iPt')
+    console.log(ipt)
+    console.log(ipt.value)
+},false)
+
+let arr = [2,3,45,6]
+arr.forEach((item,index)=>{console.log(item)})
+let a = []
+if(a){
+    console.log(`a为空`)
+}
+let testBool = [false,true]
+let bo = testBool.every(item=>item)
+console.log(bo)
