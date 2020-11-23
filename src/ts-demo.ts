@@ -25,3 +25,5 @@ class ConsoleLogger implements Loggable {
 var jim = extend(new Person("Jim"), new ConsoleLogger());
 var n = jim.name;
 jim.log();
+
+console.log(`ts`)
