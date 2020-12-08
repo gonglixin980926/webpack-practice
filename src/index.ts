@@ -1,12 +1,14 @@
 import { observable, computed, autorun, action, observe, reaction } from "mobx"
 import axios from 'axios'
-import "reflect-metadata"
+// import "reflect-metadata"
 // import './decorator-demo'
-import './rxjs-demo'
+// import './rxjs-demo'
 import { TimeoutError } from "rxjs"
 import { timeout } from "rxjs/operators"
+import { proxyTest} from './proxy'
 
-
+console.log(module)
+console.log(proxyTest)
 // import './type-demo'
 // import './ts-demo'
 // class OrderLine {
@@ -205,7 +207,7 @@ function foo1(){
     }
 }
 let memory = foo1()()
-console.log(memory)
+// console.log(memory)
 
 class Test {
     constructor(){
