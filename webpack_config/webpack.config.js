@@ -7,6 +7,7 @@ module.exports = {
   // entry: {
   //   app:'./src/index.js',
   // },
+  mode: 'development',
   entry: './src/index.ts',
   output: {
     filename: '[name].bundle.js',

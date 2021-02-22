@@ -8,7 +8,7 @@
       // "outFile": "./app-js",                     // 将多个相互依赖的文件生成一个文件，可以用在AMD模块中
       // "lib": [],                                 // TS 需要引用的库，即声明文件，es5 默认"dom", "es5", "scripthost"
       "allowJs": true,                              // 允许编译：IS 文件（js、jsx)
-      "checkJs": true,                           // 允许在JS文件中报错，通常与allowJS _起使用
+      "checkJs": false,                           // 允许在JS文件中报错，通常与allowJS _起使用
       "outDir": "./dist",                        // 指定输出目录
       "rootDir": "./",                           // 指定输入文件目录（用于输出）
       "declaration": true,                       // 生成声明文件
@@ -28,7 +28,7 @@
       // "noEmitHelpers": true,                     // 不生成 helper 函数，需额外安装 ts-helpers 
       // "importHelpers": true,                     // 通过tslib引入helper函数，文件必须是模块
       // "downlevellteration" : true,               // 降级遍历器的实现（es3/5)
-      "strict": true,                            // 开启所有严格的类型检查
+      "strict": false,                            // 开启所有严格的类型检查
       "alwaysStrict": false,                     // 在代码中注入"use strict";
       // "noImplicitAny": false,                    // 不允许隐式的any类型
       // "strictNullChecksilj false,                // 不允许把null、undefined赋值给其他类型变置

@@ -19,4 +19,7 @@ let proxyTest = 5
 console.log(proxy.meal)
 console.log(module)
 export {proxyTest}
-
+const arr = []
+arr.slice()
+// @ts-ignore
+exports.test = '5'
