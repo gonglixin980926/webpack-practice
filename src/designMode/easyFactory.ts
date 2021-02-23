@@ -47,3 +47,37 @@ class CashFactory {
         }
     }
 }
+
+
+// 策略模式与简单工厂结合
+class Cashcontext {
+    private cs: CashSuper
+    constructor() {
+    }
+    cashContext(type: string){ //简单工厂
+        switch(type){
+            case 'normal':
+            this.cs = new NormalCash()
+            case 'disCount':
+            this.cs = new DisCountCash(0.8)
+            case 'reduce':
+            this.cs = new ReductionCash(300,200)
+        }
+    }
+    getMoney(money: number){
+        return this.cs.acceptCash(money)
+    }
+}
+
+function  addEventListener() {
+    let calculation = document.getElementById('calculation') as HTMLSelectElement
+    calculation.onchange = function (e) {
+        console.log(calculation.selectedIndex)
+    }
+}
+
+(function(){
+    addEventListener()
+    // 工厂模式调用
+
+}())
