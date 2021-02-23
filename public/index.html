@@ -10,11 +10,35 @@
     </style>
 </head>
 <body>
-    <h1>whdwn</h1>
-    <h2>whdwn</h2>
-    <h3>whdwn</h3>
-    <h4>whdwn</h4>
-this is webpackdwasf  
-<button id="oBt">按钮</button>
+    <form action="" id="priceCount">
+        <input type="number" id="price">
+        <input type="number" id="num">
+        计算方式：
+        <select name="calculation" id="calculation" >
+            <option selected value ="normal">普通</option>
+            <option value ="discount">打折</option>
+            <option value ="fullReduction">满减</option>
+        </select>
+        <select id="discount" name="discount">
+            <option value ="0.1">1折</option>
+            <option value ="0.2">2折</option>
+            <option value ="0.3">3折</option>
+            <option value ="0.4">4折</option>
+            <option value ="0.5">5折</option>
+            <option value ="0.6">6折</option>
+            <option value ="0.7">7折</option>
+            <option value ="0.8">8折</option>
+            <option value ="0.9">9折</option>
+          </select>
+        <div id="fullReduction">
+            满减
+            <input type="number" name="fullMoney">
+            <input type="number" name="reduceMoney">
+        </div>
+        <input type="submit" name="submit" id="submit">
+    </form>
+
+<!-- <button id="oBt">计算</button> -->
+<div id="total"></div>
 </body>
 </html>
