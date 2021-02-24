@@ -21,11 +21,6 @@ abstract class Decorator extends Component{
     setComponent(com: Component){
         this.component = com
     }
-    Operation() {
-        if(!!this.component){
-            this.component.Operation()
-        }
-    }
 }
 
 class ConcreteDecoratorA extends Decorator{
