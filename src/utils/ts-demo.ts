@@ -11,7 +11,7 @@ function extend<T, U>(first: T, second: U): T & U {
     return result;
 }
 
-class Person {
+class P {
     constructor(public name: string) { }
 }
 interface Loggable {
@@ -22,7 +22,7 @@ class ConsoleLogger implements Loggable {
         // ...
     }
 }
-var jim = extend(new Person("Jim"), new ConsoleLogger());
+var jim = extend(new P("Jim"), new ConsoleLogger());
 var n = jim.name;
 jim.log();
 

@@ -1,1 +1,2 @@
-import './easyFactory'
+import './factoryAndStrategy'
+import './decorator'

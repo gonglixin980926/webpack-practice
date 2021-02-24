@@ -69,11 +69,28 @@ class Cashcontext {
     }
 }
 
-function  addEventListener() {
-    let calculation = document.getElementById('calculation') as HTMLSelectElement
-    calculation.onchange = function (e) {
-        console.log(calculation.selectedIndex)
+function test (a) {
+    switch(a){
+        case 0:
+        return '000'
+        case 1:
+       return '11111'
+        case 2:
+        return 'wwwwwwww'
     }
+    return 'return'
+}
+
+function  addEventListener() {
+    // let calculationEl = document.getElementById('calculation') as HTMLSelectElement
+    // calculationEl.addEventListener('change',(e)=>{
+    //     const calculation = calculationEl.options[calculationEl.selectedIndex].value
+    //     switch (calculation){
+    //         case '':
+    //         case '':
+    //         case '':
+    //     }
+    // })
 }
 
 (function(){
