@@ -1,4 +1,4 @@
-import { computed } from "mobx"
+import { computed } from 'mobx';
 
 // class Test<T extends object>{
 //     constructor(){
@@ -44,27 +44,27 @@ interface ClockInterface {
 }
 
 function createClock(ctor: ClockConstructor, hour: number, minute: number): ClockInterface {
-    return new ctor(hour, minute);
+	return new ctor(hour, minute);
 }
 
 class DigitalClock implements ClockInterface {
-    constructor(m:number,h:number){
-        console.log(m,h)
-    }
-    tick() {
-        console.log("beep beep");
-    }
+	constructor(m:number,h:number){
+		console.log(m,h);
+	}
+	tick() {
+		console.log('beep beep');
+	}
 }
 class AnalogClock implements ClockInterface {
-    constructor(h: number, m: number) { 
-        console.log(h,m)
-    }
-    tick() {
-        console.log("tick tock");
-    }
+	constructor(h: number, m: number) { 
+		console.log(h,m);
+	}
+	tick() {
+		console.log('tick tock');
+	}
 }
 
-let digital = createClock(DigitalClock, 12, 17);
-let analog = createClock(AnalogClock, 7, 32);
+const digital = createClock(DigitalClock, 12, 17);
+const analog = createClock(AnalogClock, 7, 32);
 
 

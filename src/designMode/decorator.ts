@@ -8,57 +8,55 @@ abstract class Component {
 
 // 定义一个对象，添加具体职责
 class ConcreteComponent extends Component {
-    Operation() {
-        console.log('基础功能')
-    }
+	Operation() {
+		console.log('基础功能');
+	}
 }
 
 // 装饰器模式核心
 abstract class Decorator extends Component{
-
-    component = null
-
-    setComponent(com: Component){
-        this.component = com
-    }
+	component = null;
+	setComponent(com: Component){
+		this.component = com;
+	}
 }
 
 class ConcreteDecoratorA extends Decorator{
-    Operation(){
-        this.component.Operation()
-        console.log(`装饰a`)
-    }
+	Operation(){
+		this.component.Operation();
+		console.log('装饰a');
+	}
 }
 
 class ConcreteDecoratorB extends Decorator{
-    Operation(){
-        this.component.Operation()
-        console.log(`装饰b`)
-    }
+	Operation(){
+		this.component.Operation();
+		console.log('装饰b');
+	}
 }
 
 
 function eventHandle(){
-    return function name(target, propertyKey: string, descriptor: PropertyDescriptor) {
-        console.log(target)
-        console.log(propertyKey)
-        descriptor.value()
-    }
+	return function name(target, propertyKey: string, descriptor: PropertyDescriptor) {
+		console.log(target);
+		console.log(propertyKey);
+		descriptor.value();
+	};
 }
 
 
 class  TestA {
     @eventHandle()
-    testFunc() {
-        console.log('ss')
-    }
+	testFunc() {
+		console.log('ss');
+	}
 }
 (function name() {
-    const c = new ConcreteComponent()
-    const d1 = new ConcreteDecoratorA()
-    const d2 = new ConcreteDecoratorB()
-    d1.setComponent(c)
-    d2.setComponent(d1)
-    d2.Operation()
+	const c = new ConcreteComponent();
+	const d1 = new ConcreteDecoratorA();
+	const d2 = new ConcreteDecoratorB();
+	d1.setComponent(c);
+	d2.setComponent(d1);
+	d2.Operation();
 
-}())
+}());

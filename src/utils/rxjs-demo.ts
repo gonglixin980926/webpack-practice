@@ -1,25 +1,25 @@
-import {Observable, Operator, interval, Subscription, fromEvent, from, Subject, of, bindCallback} from 'rxjs'
-import{take, map, merge, multicast,}from 'rxjs/operators'
-import axios from 'axios'
+import { Observable, Operator, interval, Subscription, fromEvent, from, Subject, of, bindCallback } from 'rxjs';
+import{ take, map, merge, multicast }from 'rxjs/operators';
+import axios from 'axios';
 import { computed } from 'mobx';
 import { createPropDecorator } from 'mobx/lib/internal';
 
 
 interval(500).pipe(take(4)).subscribe( data=>{
-    console.log(data)
-})
+	console.log(data);
+});
 
-let sub = new Subject()
+const sub = new Subject();
 
-let clicks$ = fromEvent(document, 'click');
+const clicks$ = fromEvent(document, 'click');
 clicks$.pipe(take(4),map(data=>{
-    console.log(data)
-    return data
+	console.log(data);
+	return data;
 })).subscribe(data=>{
-    console.log(data)
-})
+	console.log(data);
+});
 
-clicks$.subscribe(sub)
+clicks$.subscribe(sub);
 
 // sub.subscribe()
 // console.log(`-----`)
@@ -110,12 +110,13 @@ clicks$.subscribe(sub)
 
 
 const someFunction = (a:any, b:any, c:any) => {
-    console.log(a); // 5
-    console.log(b); // 'some string'
-    console.log(c); // {someProperty: 'someValue'}
-  };
-   
-  const boundSomeFunction = bindCallback(someFunction);
-  boundSomeFunction(1,2).subscribe(values => {
-    console.log(values) // [5, 'some string', {someProperty: 'someValue'}]
-  });
+	console.log(a); // 5
+	console.log(b); // 'some string'
+	console.log(c); // {someProperty: 'someValue'}
+};
+
+const boundSomeFunction = bindCallback(someFunction);
+boundSomeFunction(1,2).subscribe(values => {
+	console.log(values); // [5, 'some string', {someProperty: 'someValue'}]
+});
+

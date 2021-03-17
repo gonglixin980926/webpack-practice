@@ -94,40 +94,37 @@
 
 class decoratorDemo{
 
-    test = 6
+	test = 6
 
-    static enName = "3"
+	static enName = '3'
 
-    static modifyClass(){
-        return  (target:any,name:string,descriptor: PropertyDescriptor) =>{
-            // let oldFunc = descriptor.value
-            console.log(target)
-            console.log(name)
-            console.log(this)
-            descriptor.value = function(...args:any){
-                console.log(`-----`)
-                // oldFunc.apply()
-            }
-            return descriptor
-            // target.prototype.extraProp = param
-        }
-    
-    }
-    
+	static modifyClass(){
+		return  (target:any,name:string,descriptor: PropertyDescriptor) =>{
+			// let oldFunc = descriptor.value
+			console.log(target);
+			console.log(name);
+			console.log(this);
+			descriptor.value = function(...args:any){
+				console.log('-----');
+				// oldFunc.apply()
+			};
+			return descriptor;
+			// target.prototype.extraProp = param
+		};
+	}
 }
-
 class testClass {
     @decoratorDemo.modifyClass()
-    test(){
-        console.log(11)
-    }
+	test(){
+		console.log(11);
+	}
 }
 
 
-let b = new testClass()
+const b = new testClass();
 
-b.test()
-b.test()
+b.test();
+b.test();
 
 
 

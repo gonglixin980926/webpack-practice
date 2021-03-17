@@ -1,25 +1,22 @@
 const dinner = {
-    meal: 'tacos'
-  }
+	meal: 'tacos'
+};
   
 const handler = {
-  get(target: any, prop: any, receiver: any) {
-    console.log(target)
-    console.log(receiver)
-    // @ts-ignore
-    const a = [...arguments]
-    console.log(a)
-    // @ts-ignore
-    return Reflect.get(...arguments)
-  }
-}
+	get(target: any, prop: any, receiver: any,...args) {
+		console.log(target);
+		console.log(receiver);
+		const a = [...args];
+		console.log(a);
+		return Reflect.get(target, prop, ...args);
+	}
+};
 
-const proxy = new Proxy(dinner, handler)
-let proxyTest = 5
-console.log(proxy.meal)
-console.log(module)
-export {proxyTest}
-const arr = []
-arr.slice()
-// @ts-ignore
-exports.test = '5'
+const proxy = new Proxy(dinner, handler);
+const proxyTest = 5;
+console.log(proxy.meal);
+console.log(module);
+export {proxyTest};
+const arr = [];
+arr.slice();
+exports.test = '5';

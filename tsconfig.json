@@ -2,6 +2,7 @@
     "compilerOptions": {
       "experimentalDecorators": true,
       "emitDecoratorMetadata": true,
+      "downlevelIteration": true,
       "incremental": true,                       // 增置编译
     //   "tsBuildlnfoFile": "./dist",          // 增置编译文件的存储位置　　// "diagnostics": true,　　　　　　　　　　　　　　// 打印诊断倍息
       "target": "es5",                           // 目标语言的版本

@@ -1,2 +1,2 @@
-import './factoryAndStrategy'
-import './decorator'
+import './factoryAndStrategy';
+import './decorator';
