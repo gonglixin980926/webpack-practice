@@ -11,7 +11,7 @@
     "build": "webpack --config webpack_config/webpack.config.js",
     "start": "webpack-dev-server --open --progress --watch --hot --config webpack_config/webpack.config.js ",
     "server": "node server/server.js",
-    "prepare": "husky install"
+	"postinstall": "husky install"
   },
   "author": "",
   "license": "ISC",
