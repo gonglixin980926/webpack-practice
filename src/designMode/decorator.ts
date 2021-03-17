@@ -44,13 +44,6 @@ function eventHandle(){
 	};
 }
 
-
-class  TestA {
-    @eventHandle()
-	testFunc() {
-		console.log('ss');
-	}
-}
 (function name() {
 	const c = new ConcreteComponent();
 	const d1 = new ConcreteDecoratorA();
