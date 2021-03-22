@@ -2,6 +2,7 @@ import 'reflect-metadata';
 import {container} from 'tsyringe';
 import { Foo } from './foo';
 
-const instance = container.resolve(Foo);
-instance.setAge(30);
-console.log(instance);
+const ins = container.resolve(Foo);
+ins.setAge(30);
+console.log(ins);
+export default ins;

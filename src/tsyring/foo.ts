@@ -1,6 +1,6 @@
 import {injectable, singleton} from 'tsyringe';
 
-@injectable()
+@singleton()
 export class Foo {
 	age: number
 	constructor() {

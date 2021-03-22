@@ -31,9 +31,9 @@ function Scale<TBase extends Constructor>(Base: TBase) {
 
 // Compose a new class from the Sprite class,
 // with the Mixin Scale applier:
-const EightBitSprite = Scale(Sprite);
+// const EightBitSprite = Scale(Sprite);
 
-const flappySprite = new EightBitSprite('Bird');
-flappySprite.setScale(0.8);
-console.log(flappySprite.scale);
+// const flappySprite = new EightBitSprite('Bird');
+// flappySprite.setScale(0.8);
+// console.log(flappySprite.scale);
 
