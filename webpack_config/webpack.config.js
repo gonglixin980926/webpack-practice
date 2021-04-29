@@ -2,6 +2,8 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const webpack = require('webpack')
+const keysTransformer = require('ts-transformer-keys/transformer').default;
+
 
 module.exports = {
   // entry: {
@@ -53,6 +55,18 @@ module.exports = {
         test: /\.tsx?$/,
         use: 'ts-loader',
         exclude: /node_modules/
+      },
+      {
+        test: /\.ts$/,
+        loader: 'ts-loader', // or 'awesome-typescript-loader'
+        options: {
+          // make sure not to set `transpileOnly: true` here, otherwise it will not work
+          getCustomTransformers: program => ({
+              before: [
+                  keysTransformer(program)
+              ]
+          })
+        }
       }
     ]
   }
