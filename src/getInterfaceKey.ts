@@ -1,4 +1,4 @@
-import {keys} from 'ts-transformer-keys'
+import {keys} from 'ts-transformer-keys';
 
 export interface QuestionConfig {
     answers: number[] // 正确答案
@@ -13,7 +13,7 @@ export interface QuestionConfig {
     bgm: string // 只传一个音频
 }
 
-const key = keys<QuestionConfig>()
-console.log(key)
-console.log('sss')
+const key = keys<QuestionConfig>();
+console.log(key);
+console.log('sss');
 // console.log(key)

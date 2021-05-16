@@ -6,17 +6,17 @@ import { createPropDecorator } from 'mobx/lib/internal';
 
 
 interval(500).pipe(take(4)).subscribe( data=>{
-	console.log(data);
+  console.log(data);
 });
 
 const sub = new Subject();
 
 const clicks$ = fromEvent(document, 'click');
 clicks$.pipe(take(4),map(data=>{
-	console.log(data);
-	return data;
+  console.log(data);
+  return data;
 })).subscribe(data=>{
-	console.log(data);
+  console.log(data);
 });
 
 clicks$.subscribe(sub);
@@ -110,13 +110,13 @@ clicks$.subscribe(sub);
 
 
 const someFunction = (a:any, b:any, c:any) => {
-	console.log(a); // 5
-	console.log(b); // 'some string'
-	console.log(c); // {someProperty: 'someValue'}
+  console.log(a); // 5
+  console.log(b); // 'some string'
+  console.log(c); // {someProperty: 'someValue'}
 };
 
 const boundSomeFunction = bindCallback(someFunction);
 boundSomeFunction(1,2).subscribe(values => {
-	console.log(values); // [5, 'some string', {someProperty: 'someValue'}]
+  console.log(values); // [5, 'some string', {someProperty: 'someValue'}]
 });
 

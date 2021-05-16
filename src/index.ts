@@ -7,8 +7,8 @@
 // import './chore/asyncforEach'
 // import './extend/demo1'
 
-import './getInterfaceKey'
-import './mobx_study/recation'
+import './getInterfaceKey';
+import './mobx_study/recation';
 // union to intersection of functions
 
-import './test'
+import './test';

@@ -38,14 +38,39 @@
 // })
 // console.log(arr1)
 
-var aa = 2
-switch(aa){
-    case 1:
-    console.log('1')
-    case 2:
-    console.log('2')
-    case 3:
-    console.log('3')
-    default:
-    console.log('default')
+// var aa = 2
+// switch(aa){
+//     case 1:
+//     console.log('1')
+//     case 2:
+//     console.log('2')
+//     case 3:
+//     console.log('3')
+//     default:
+//     console.log('default')
+// }
+// var obj = {
+//     a: {
+//         b:5
+//     }
+// }
+// function change(a: any) {
+//     a.b = 10
+// }
+// const {a} = obj
+// change(a)
+// console.log(obj)
+// function t(){
+//     console.log('222')
+// }
+// true && t()
+
+export class classTest {
+  static getConfig(){
+    this.tes();
+  }
+  static tes(){
+    console.log(this);
+  }
 }
+classTest.getConfig();

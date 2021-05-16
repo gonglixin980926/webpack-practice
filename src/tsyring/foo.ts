@@ -4,9 +4,9 @@ import {injectable, singleton} from 'tsyringe';
 export class Foo {
 	age: number
 	constructor() {
-		this.age = 20;
+	    this.age = 20;
 	}
 	setAge(age: number){
-		this.age = age;
+	    this.age = age;
 	}
 }

@@ -27,4 +27,4 @@ interface Test {
 
 type test = UnionToTuple<keyof Test>
 
-const b:test = ['a','b']
+const b:test = ['a','b'];

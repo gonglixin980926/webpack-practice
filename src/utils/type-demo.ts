@@ -44,24 +44,24 @@ interface ClockInterface {
 }
 
 function createClock(ctor: ClockConstructor, hour: number, minute: number): ClockInterface {
-	return new ctor(hour, minute);
+  return new ctor(hour, minute);
 }
 
 class DigitalClock implements ClockInterface {
-	constructor(m:number,h:number){
-		console.log(m,h);
-	}
-	tick() {
-		console.log('beep beep');
-	}
+  constructor(m:number,h:number){
+    console.log(m,h);
+  }
+  tick() {
+    console.log('beep beep');
+  }
 }
 class AnalogClock implements ClockInterface {
-	constructor(h: number, m: number) { 
-		console.log(h,m);
-	}
-	tick() {
-		console.log('tick tock');
-	}
+  constructor(h: number, m: number) { 
+    console.log(h,m);
+  }
+  tick() {
+    console.log('tick tock');
+  }
 }
 
 const digital = createClock(DigitalClock, 12, 17);

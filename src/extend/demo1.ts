@@ -1,18 +1,18 @@
 class  Animal {
     a: number
     constructor(){
-        this.a = 0
+      this.a = 0;
     }
     says(){
-        console.log('说些什么')
+      console.log('说些什么');
     }
 }
 
 class Bird extends Animal{
-    constructor() {
-        super()
-    }
+  constructor() {
+    super();
+  }
 }
 
-let a = new Bird()
-console.log(a)
+const a = new Bird();
+console.log(a);
