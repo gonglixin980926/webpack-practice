@@ -19,6 +19,7 @@
     "axios": "^0.20.0",
     "lodash": "^4.17.19",
     "mobx": "^5.15.5",
+    "recast": "^0.20.4",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^6.6.0",
     "ts-transformer-keys": "^0.4.3",

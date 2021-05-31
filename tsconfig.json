@@ -57,7 +57,8 @@
       "src/**/*", "src/index.js", "src/proxy.js"
 , "qrcode.ts"    ],
     "exclude": [                                 // 指定一个排除列表（include的反向操作）
-      "node_modules"
+      "node_modules",
+      "ast"
     ]
     // "files": [                                   // 指定哪些文件使用该配置（属于手动一个个指定文件）
     //   "demo.ts"
