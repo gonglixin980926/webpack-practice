@@ -13,6 +13,8 @@ const {variableDeclaration, variableDeclarator, functionExpression} = recast.typ
 // 我们使用了很奇怪格式的代码，想测试是否能维持代码结构
 const code =
   `
+  var a = 5
+  // 这是一段注释
   function add(a, b) {
     return a +
       // 有什么奇怪的东西混进来了
@@ -23,7 +25,7 @@ const code =
 const ast = recast.parse(code);
 const add  = ast.program.body[0]
 
-fs.writeFileSync(demoPath,JSON.stringify(add))
+fs.writeFileSync(demoPath,JSON.stringify(ast))
 // console.log(JSON.stringify(ast))
 
 // ast可以处理很巨大的代码文件
@@ -32,16 +34,16 @@ fs.writeFileSync(demoPath,JSON.stringify(add))
 // console.log(JSON.stringify(add))
 
 // 将准备好的组件置入模具，并组装回原来的ast对象。
-ast.program.body[0] = variableDeclaration("const", [
-    variableDeclarator(add.id, functionExpression(
-      null, // Anonymize the function expression.
-      add.params,
-      add.body
-    ))
-  ]);
-  
-  //将AST对象重新转回可以阅读的代码
-  const output = recast.print(ast).code;
-fs.writeFileSync(demo2Js,output)
-  
+// ast.program.body[0] = variableDeclaration("const", [
+//     variableDeclarator(add.id, functionExpression(
+//       null, // Anonymize the function expression.
+//       add.params,
+//       add.body
+//     ))
+//   ]);
+
+//   //将AST对象重新转回可以阅读的代码
+//   const output = recast.print(ast).code;
+// fs.writeFileSync(demo2Js,output)
+
   // console.log(output)
