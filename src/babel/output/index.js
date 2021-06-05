@@ -1,16 +1,19 @@
-console.log("sourceCode.js: ", 'this is log');
+console.log("这是新生产的代码")
+console.log("fileName ", 'this is log');
 
 function func() {
-  console.info("sourceCode.js: ", 'this is info');
+  console.log("这是新生产的代码")
+  console.info("fileName ", 'this is info');
 }
 
 export default class Clazz {
   say() {
-    console.debug("sourceCode.js: ", 'this is debug');
+    console.log("这是新生产的代码")
+    console.debug("fileName ", 'this is debug');
   }
 
   render() {
-    return <div>{console.error("sourceCode.js: ", 'this is error')}</div>;
+    return <div>{[console.log("这是新生产的代码"), console.error("fileName ", 'this is error')]}</div>;
   }
 
 }
