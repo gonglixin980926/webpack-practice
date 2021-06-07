@@ -1,1 +1,818 @@
-{"type":"File","start":0,"end":252,"loc":{"start":{"line":1,"column":0},"end":{"line":14,"column":1},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"},"errors":[],"program":{"type":"Program","start":0,"end":252,"loc":{"start":{"line":1,"column":0},"end":{"line":14,"column":1},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"},"sourceType":"module","interpreter":null,"body":[{"type":"ExpressionStatement","start":0,"end":27,"loc":{"start":{"line":1,"column":0},"end":{"line":1,"column":27},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"},"expression":{"type":"CallExpression","start":0,"end":26,"loc":{"start":{"line":1,"column":0},"end":{"line":1,"column":26},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"},"callee":{"type":"MemberExpression","start":0,"end":11,"loc":{"start":{"line":1,"column":0},"end":{"line":1,"column":11},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"},"object":{"type":"Identifier","start":0,"end":7,"loc":{"start":{"line":1,"column":0},"end":{"line":1,"column":7},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js","identifierName":"console"},"name":"console"},"computed":false,"property":{"type":"Identifier","start":8,"end":11,"loc":{"start":{"line":1,"column":8},"end":{"line":1,"column":11},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js","identifierName":"log"},"name":"log"}},"arguments":[{"type":"StringLiteral","start":12,"end":25,"loc":{"start":{"line":1,"column":12},"end":{"line":1,"column":25},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"},"extra":{"rawValue":"this is log","raw":"'this is log'"},"value":"this is log"}]}},{"type":"FunctionDeclaration","start":29,"end":82,"loc":{"start":{"line":3,"column":0},"end":{"line":5,"column":1},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"},"id":{"type":"Identifier","start":38,"end":42,"loc":{"start":{"line":3,"column":9},"end":{"line":3,"column":13},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js","identifierName":"func"},"name":"func"},"generator":false,"async":false,"params":[],"body":{"type":"BlockStatement","start":45,"end":82,"loc":{"start":{"line":3,"column":16},"end":{"line":5,"column":1},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"},"body":[{"type":"ExpressionStatement","start":51,"end":80,"loc":{"start":{"line":4,"column":4},"end":{"line":4,"column":33},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"},"expression":{"type":"CallExpression","start":51,"end":79,"loc":{"start":{"line":4,"column":4},"end":{"line":4,"column":32},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"},"callee":{"type":"MemberExpression","start":51,"end":63,"loc":{"start":{"line":4,"column":4},"end":{"line":4,"column":16},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"},"object":{"type":"Identifier","start":51,"end":58,"loc":{"start":{"line":4,"column":4},"end":{"line":4,"column":11},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js","identifierName":"console"},"name":"console"},"computed":false,"property":{"type":"Identifier","start":59,"end":63,"loc":{"start":{"line":4,"column":12},"end":{"line":4,"column":16},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js","identifierName":"info"},"name":"info"}},"arguments":[{"type":"StringLiteral","start":64,"end":78,"loc":{"start":{"line":4,"column":17},"end":{"line":4,"column":31},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"},"extra":{"rawValue":"this is info","raw":"'this is info'"},"value":"this is info"}]}}],"directives":[]}},{"type":"ExportDefaultDeclaration","start":84,"end":252,"loc":{"start":{"line":7,"column":0},"end":{"line":14,"column":1},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"},"declaration":{"type":"ClassDeclaration","start":99,"end":252,"loc":{"start":{"line":7,"column":15},"end":{"line":14,"column":1},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"},"id":{"type":"Identifier","start":105,"end":110,"loc":{"start":{"line":7,"column":21},"end":{"line":7,"column":26},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js","identifierName":"Clazz"},"name":"Clazz"},"superClass":null,"body":{"type":"ClassBody","start":111,"end":252,"loc":{"start":{"line":7,"column":27},"end":{"line":14,"column":1},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"},"body":[{"type":"ClassMethod","start":117,"end":170,"loc":{"start":{"line":8,"column":4},"end":{"line":10,"column":5},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"},"static":false,"key":{"type":"Identifier","start":117,"end":120,"loc":{"start":{"line":8,"column":4},"end":{"line":8,"column":7},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js","identifierName":"say"},"name":"say"},"computed":false,"kind":"method","id":null,"generator":false,"async":false,"params":[],"body":{"type":"BlockStatement","start":123,"end":170,"loc":{"start":{"line":8,"column":10},"end":{"line":10,"column":5},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"},"body":[{"type":"ExpressionStatement","start":133,"end":164,"loc":{"start":{"line":9,"column":8},"end":{"line":9,"column":39},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"},"expression":{"type":"CallExpression","start":133,"end":163,"loc":{"start":{"line":9,"column":8},"end":{"line":9,"column":38},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"},"callee":{"type":"MemberExpression","start":133,"end":146,"loc":{"start":{"line":9,"column":8},"end":{"line":9,"column":21},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"},"object":{"type":"Identifier","start":133,"end":140,"loc":{"start":{"line":9,"column":8},"end":{"line":9,"column":15},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js","identifierName":"console"},"name":"console"},"computed":false,"property":{"type":"Identifier","start":141,"end":146,"loc":{"start":{"line":9,"column":16},"end":{"line":9,"column":21},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js","identifierName":"debug"},"name":"debug"}},"arguments":[{"type":"StringLiteral","start":147,"end":162,"loc":{"start":{"line":9,"column":22},"end":{"line":9,"column":37},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"},"extra":{"rawValue":"this is debug","raw":"'this is debug'"},"value":"this is debug"}]}}],"directives":[]}},{"type":"ClassMethod","start":175,"end":250,"loc":{"start":{"line":11,"column":4},"end":{"line":13,"column":5},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"},"static":false,"key":{"type":"Identifier","start":175,"end":181,"loc":{"start":{"line":11,"column":4},"end":{"line":11,"column":10},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js","identifierName":"render"},"name":"render"},"computed":false,"kind":"method","id":null,"generator":false,"async":false,"params":[],"body":{"type":"BlockStatement","start":184,"end":250,"loc":{"start":{"line":11,"column":13},"end":{"line":13,"column":5},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"},"body":[{"type":"ReturnStatement","start":194,"end":244,"loc":{"start":{"line":12,"column":8},"end":{"line":12,"column":58},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"},"argument":{"type":"JSXElement","start":201,"end":244,"loc":{"start":{"line":12,"column":15},"end":{"line":12,"column":58},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"},"openingElement":{"type":"JSXOpeningElement","start":201,"end":206,"loc":{"start":{"line":12,"column":15},"end":{"line":12,"column":20},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"},"name":{"type":"JSXIdentifier","start":202,"end":205,"loc":{"start":{"line":12,"column":16},"end":{"line":12,"column":19},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"},"name":"div"},"attributes":[],"selfClosing":false},"closingElement":{"type":"JSXClosingElement","start":238,"end":244,"loc":{"start":{"line":12,"column":52},"end":{"line":12,"column":58},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"},"name":{"type":"JSXIdentifier","start":240,"end":243,"loc":{"start":{"line":12,"column":54},"end":{"line":12,"column":57},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"},"name":"div"}},"children":[{"type":"JSXExpressionContainer","start":206,"end":238,"loc":{"start":{"line":12,"column":20},"end":{"line":12,"column":52},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"},"expression":{"type":"CallExpression","start":207,"end":237,"loc":{"start":{"line":12,"column":21},"end":{"line":12,"column":51},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"},"callee":{"type":"MemberExpression","start":207,"end":220,"loc":{"start":{"line":12,"column":21},"end":{"line":12,"column":34},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"},"object":{"type":"Identifier","start":207,"end":214,"loc":{"start":{"line":12,"column":21},"end":{"line":12,"column":28},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js","identifierName":"console"},"name":"console"},"computed":false,"property":{"type":"Identifier","start":215,"end":220,"loc":{"start":{"line":12,"column":29},"end":{"line":12,"column":34},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js","identifierName":"error"},"name":"error"}},"arguments":[{"type":"StringLiteral","start":221,"end":236,"loc":{"start":{"line":12,"column":35},"end":{"line":12,"column":50},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"},"extra":{"rawValue":"this is error","raw":"'this is error'"},"value":"this is error"}]}}]}}],"directives":[]}}]}}}],"directives":[]},"comments":[]}
+{
+    "type": "File",
+    "start": 0,
+    "end": 252,
+    "loc": {
+        "start": {
+            "line": 1,
+            "column": 0
+        },
+        "end": {
+            "line": 14,
+            "column": 1
+        },
+        "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"
+    },
+    "errors": [],
+    "program": {
+        "type": "Program",
+        "start": 0,
+        "end": 252,
+        "loc": {
+            "start": {
+                "line": 1,
+                "column": 0
+            },
+            "end": {
+                "line": 14,
+                "column": 1
+            },
+            "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"
+        },
+        "sourceType": "module",
+        "interpreter": null,
+        "body": [
+            {
+                "type": "ExpressionStatement",
+                "start": 0,
+                "end": 27,
+                "loc": {
+                    "start": {
+                        "line": 1,
+                        "column": 0
+                    },
+                    "end": {
+                        "line": 1,
+                        "column": 27
+                    },
+                    "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"
+                },
+                "expression": {
+                    "type": "CallExpression",
+                    "start": 0,
+                    "end": 26,
+                    "loc": {
+                        "start": {
+                            "line": 1,
+                            "column": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 26
+                        },
+                        "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"
+                    },
+                    "callee": {
+                        "type": "MemberExpression",
+                        "start": 0,
+                        "end": 11,
+                        "loc": {
+                            "start": {
+                                "line": 1,
+                                "column": 0
+                            },
+                            "end": {
+                                "line": 1,
+                                "column": 11
+                            },
+                            "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"
+                        },
+                        "object": {
+                            "type": "Identifier",
+                            "start": 0,
+                            "end": 7,
+                            "loc": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 0
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 7
+                                },
+                                "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js",
+                                "identifierName": "console"
+                            },
+                            "name": "console"
+                        },
+                        "computed": false,
+                        "property": {
+                            "type": "Identifier",
+                            "start": 8,
+                            "end": 11,
+                            "loc": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 8
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 11
+                                },
+                                "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js",
+                                "identifierName": "log"
+                            },
+                            "name": "log"
+                        }
+                    },
+                    "arguments": [
+                        {
+                            "type": "StringLiteral",
+                            "start": 12,
+                            "end": 25,
+                            "loc": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 12
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 25
+                                },
+                                "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"
+                            },
+                            "extra": {
+                                "rawValue": "this is log",
+                                "raw": "'this is log'"
+                            },
+                            "value": "this is log"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "FunctionDeclaration",
+                "start": 29,
+                "end": 82,
+                "loc": {
+                    "start": {
+                        "line": 3,
+                        "column": 0
+                    },
+                    "end": {
+                        "line": 5,
+                        "column": 1
+                    },
+                    "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"
+                },
+                "id": {
+                    "type": "Identifier",
+                    "start": 38,
+                    "end": 42,
+                    "loc": {
+                        "start": {
+                            "line": 3,
+                            "column": 9
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 13
+                        },
+                        "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js",
+                        "identifierName": "func"
+                    },
+                    "name": "func"
+                },
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                    "type": "BlockStatement",
+                    "start": 45,
+                    "end": 82,
+                    "loc": {
+                        "start": {
+                            "line": 3,
+                            "column": 16
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 1
+                        },
+                        "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"
+                    },
+                    "body": [
+                        {
+                            "type": "ExpressionStatement",
+                            "start": 51,
+                            "end": 80,
+                            "loc": {
+                                "start": {
+                                    "line": 4,
+                                    "column": 4
+                                },
+                                "end": {
+                                    "line": 4,
+                                    "column": 33
+                                },
+                                "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"
+                            },
+                            "expression": {
+                                "type": "CallExpression",
+                                "start": 51,
+                                "end": 79,
+                                "loc": {
+                                    "start": {
+                                        "line": 4,
+                                        "column": 4
+                                    },
+                                    "end": {
+                                        "line": 4,
+                                        "column": 32
+                                    },
+                                    "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"
+                                },
+                                "callee": {
+                                    "type": "MemberExpression",
+                                    "start": 51,
+                                    "end": 63,
+                                    "loc": {
+                                        "start": {
+                                            "line": 4,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 4,
+                                            "column": 16
+                                        },
+                                        "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"
+                                    },
+                                    "object": {
+                                        "type": "Identifier",
+                                        "start": 51,
+                                        "end": 58,
+                                        "loc": {
+                                            "start": {
+                                                "line": 4,
+                                                "column": 4
+                                            },
+                                            "end": {
+                                                "line": 4,
+                                                "column": 11
+                                            },
+                                            "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js",
+                                            "identifierName": "console"
+                                        },
+                                        "name": "console"
+                                    },
+                                    "computed": false,
+                                    "property": {
+                                        "type": "Identifier",
+                                        "start": 59,
+                                        "end": 63,
+                                        "loc": {
+                                            "start": {
+                                                "line": 4,
+                                                "column": 12
+                                            },
+                                            "end": {
+                                                "line": 4,
+                                                "column": 16
+                                            },
+                                            "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js",
+                                            "identifierName": "info"
+                                        },
+                                        "name": "info"
+                                    }
+                                },
+                                "arguments": [
+                                    {
+                                        "type": "StringLiteral",
+                                        "start": 64,
+                                        "end": 78,
+                                        "loc": {
+                                            "start": {
+                                                "line": 4,
+                                                "column": 17
+                                            },
+                                            "end": {
+                                                "line": 4,
+                                                "column": 31
+                                            },
+                                            "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"
+                                        },
+                                        "extra": {
+                                            "rawValue": "this is info",
+                                            "raw": "'this is info'"
+                                        },
+                                        "value": "this is info"
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "directives": []
+                }
+            },
+            {
+                "type": "ExportDefaultDeclaration",
+                "start": 84,
+                "end": 252,
+                "loc": {
+                    "start": {
+                        "line": 7,
+                        "column": 0
+                    },
+                    "end": {
+                        "line": 14,
+                        "column": 1
+                    },
+                    "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"
+                },
+                "declaration": {
+                    "type": "ClassDeclaration",
+                    "start": 99,
+                    "end": 252,
+                    "loc": {
+                        "start": {
+                            "line": 7,
+                            "column": 15
+                        },
+                        "end": {
+                            "line": 14,
+                            "column": 1
+                        },
+                        "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"
+                    },
+                    "id": {
+                        "type": "Identifier",
+                        "start": 105,
+                        "end": 110,
+                        "loc": {
+                            "start": {
+                                "line": 7,
+                                "column": 21
+                            },
+                            "end": {
+                                "line": 7,
+                                "column": 26
+                            },
+                            "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js",
+                            "identifierName": "Clazz"
+                        },
+                        "name": "Clazz"
+                    },
+                    "superClass": null,
+                    "body": {
+                        "type": "ClassBody",
+                        "start": 111,
+                        "end": 252,
+                        "loc": {
+                            "start": {
+                                "line": 7,
+                                "column": 27
+                            },
+                            "end": {
+                                "line": 14,
+                                "column": 1
+                            },
+                            "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"
+                        },
+                        "body": [
+                            {
+                                "type": "ClassMethod",
+                                "start": 117,
+                                "end": 170,
+                                "loc": {
+                                    "start": {
+                                        "line": 8,
+                                        "column": 4
+                                    },
+                                    "end": {
+                                        "line": 10,
+                                        "column": 5
+                                    },
+                                    "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"
+                                },
+                                "static": false,
+                                "key": {
+                                    "type": "Identifier",
+                                    "start": 117,
+                                    "end": 120,
+                                    "loc": {
+                                        "start": {
+                                            "line": 8,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 8,
+                                            "column": 7
+                                        },
+                                        "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js",
+                                        "identifierName": "say"
+                                    },
+                                    "name": "say"
+                                },
+                                "computed": false,
+                                "kind": "method",
+                                "id": null,
+                                "generator": false,
+                                "async": false,
+                                "params": [],
+                                "body": {
+                                    "type": "BlockStatement",
+                                    "start": 123,
+                                    "end": 170,
+                                    "loc": {
+                                        "start": {
+                                            "line": 8,
+                                            "column": 10
+                                        },
+                                        "end": {
+                                            "line": 10,
+                                            "column": 5
+                                        },
+                                        "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"
+                                    },
+                                    "body": [
+                                        {
+                                            "type": "ExpressionStatement",
+                                            "start": 133,
+                                            "end": 164,
+                                            "loc": {
+                                                "start": {
+                                                    "line": 9,
+                                                    "column": 8
+                                                },
+                                                "end": {
+                                                    "line": 9,
+                                                    "column": 39
+                                                },
+                                                "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"
+                                            },
+                                            "expression": {
+                                                "type": "CallExpression",
+                                                "start": 133,
+                                                "end": 163,
+                                                "loc": {
+                                                    "start": {
+                                                        "line": 9,
+                                                        "column": 8
+                                                    },
+                                                    "end": {
+                                                        "line": 9,
+                                                        "column": 38
+                                                    },
+                                                    "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"
+                                                },
+                                                "callee": {
+                                                    "type": "MemberExpression",
+                                                    "start": 133,
+                                                    "end": 146,
+                                                    "loc": {
+                                                        "start": {
+                                                            "line": 9,
+                                                            "column": 8
+                                                        },
+                                                        "end": {
+                                                            "line": 9,
+                                                            "column": 21
+                                                        },
+                                                        "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"
+                                                    },
+                                                    "object": {
+                                                        "type": "Identifier",
+                                                        "start": 133,
+                                                        "end": 140,
+                                                        "loc": {
+                                                            "start": {
+                                                                "line": 9,
+                                                                "column": 8
+                                                            },
+                                                            "end": {
+                                                                "line": 9,
+                                                                "column": 15
+                                                            },
+                                                            "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js",
+                                                            "identifierName": "console"
+                                                        },
+                                                        "name": "console"
+                                                    },
+                                                    "computed": false,
+                                                    "property": {
+                                                        "type": "Identifier",
+                                                        "start": 141,
+                                                        "end": 146,
+                                                        "loc": {
+                                                            "start": {
+                                                                "line": 9,
+                                                                "column": 16
+                                                            },
+                                                            "end": {
+                                                                "line": 9,
+                                                                "column": 21
+                                                            },
+                                                            "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js",
+                                                            "identifierName": "debug"
+                                                        },
+                                                        "name": "debug"
+                                                    }
+                                                },
+                                                "arguments": [
+                                                    {
+                                                        "type": "StringLiteral",
+                                                        "start": 147,
+                                                        "end": 162,
+                                                        "loc": {
+                                                            "start": {
+                                                                "line": 9,
+                                                                "column": 22
+                                                            },
+                                                            "end": {
+                                                                "line": 9,
+                                                                "column": 37
+                                                            },
+                                                            "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"
+                                                        },
+                                                        "extra": {
+                                                            "rawValue": "this is debug",
+                                                            "raw": "'this is debug'"
+                                                        },
+                                                        "value": "this is debug"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "directives": []
+                                }
+                            },
+                            {
+                                "type": "ClassMethod",
+                                "start": 175,
+                                "end": 250,
+                                "loc": {
+                                    "start": {
+                                        "line": 11,
+                                        "column": 4
+                                    },
+                                    "end": {
+                                        "line": 13,
+                                        "column": 5
+                                    },
+                                    "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"
+                                },
+                                "static": false,
+                                "key": {
+                                    "type": "Identifier",
+                                    "start": 175,
+                                    "end": 181,
+                                    "loc": {
+                                        "start": {
+                                            "line": 11,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 11,
+                                            "column": 10
+                                        },
+                                        "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js",
+                                        "identifierName": "render"
+                                    },
+                                    "name": "render"
+                                },
+                                "computed": false,
+                                "kind": "method",
+                                "id": null,
+                                "generator": false,
+                                "async": false,
+                                "params": [],
+                                "body": {
+                                    "type": "BlockStatement",
+                                    "start": 184,
+                                    "end": 250,
+                                    "loc": {
+                                        "start": {
+                                            "line": 11,
+                                            "column": 13
+                                        },
+                                        "end": {
+                                            "line": 13,
+                                            "column": 5
+                                        },
+                                        "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"
+                                    },
+                                    "body": [
+                                        {
+                                            "type": "ReturnStatement",
+                                            "start": 194,
+                                            "end": 244,
+                                            "loc": {
+                                                "start": {
+                                                    "line": 12,
+                                                    "column": 8
+                                                },
+                                                "end": {
+                                                    "line": 12,
+                                                    "column": 58
+                                                },
+                                                "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"
+                                            },
+                                            "argument": {
+                                                "type": "JSXElement",
+                                                "start": 201,
+                                                "end": 244,
+                                                "loc": {
+                                                    "start": {
+                                                        "line": 12,
+                                                        "column": 15
+                                                    },
+                                                    "end": {
+                                                        "line": 12,
+                                                        "column": 58
+                                                    },
+                                                    "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"
+                                                },
+                                                "openingElement": {
+                                                    "type": "JSXOpeningElement",
+                                                    "start": 201,
+                                                    "end": 206,
+                                                    "loc": {
+                                                        "start": {
+                                                            "line": 12,
+                                                            "column": 15
+                                                        },
+                                                        "end": {
+                                                            "line": 12,
+                                                            "column": 20
+                                                        },
+                                                        "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"
+                                                    },
+                                                    "name": {
+                                                        "type": "JSXIdentifier",
+                                                        "start": 202,
+                                                        "end": 205,
+                                                        "loc": {
+                                                            "start": {
+                                                                "line": 12,
+                                                                "column": 16
+                                                            },
+                                                            "end": {
+                                                                "line": 12,
+                                                                "column": 19
+                                                            },
+                                                            "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"
+                                                        },
+                                                        "name": "div"
+                                                    },
+                                                    "attributes": [],
+                                                    "selfClosing": false
+                                                },
+                                                "closingElement": {
+                                                    "type": "JSXClosingElement",
+                                                    "start": 238,
+                                                    "end": 244,
+                                                    "loc": {
+                                                        "start": {
+                                                            "line": 12,
+                                                            "column": 52
+                                                        },
+                                                        "end": {
+                                                            "line": 12,
+                                                            "column": 58
+                                                        },
+                                                        "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"
+                                                    },
+                                                    "name": {
+                                                        "type": "JSXIdentifier",
+                                                        "start": 240,
+                                                        "end": 243,
+                                                        "loc": {
+                                                            "start": {
+                                                                "line": 12,
+                                                                "column": 54
+                                                            },
+                                                            "end": {
+                                                                "line": 12,
+                                                                "column": 57
+                                                            },
+                                                            "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"
+                                                        },
+                                                        "name": "div"
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "type": "JSXExpressionContainer",
+                                                        "start": 206,
+                                                        "end": 238,
+                                                        "loc": {
+                                                            "start": {
+                                                                "line": 12,
+                                                                "column": 20
+                                                            },
+                                                            "end": {
+                                                                "line": 12,
+                                                                "column": 52
+                                                            },
+                                                            "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"
+                                                        },
+                                                        "expression": {
+                                                            "type": "CallExpression",
+                                                            "start": 207,
+                                                            "end": 237,
+                                                            "loc": {
+                                                                "start": {
+                                                                    "line": 12,
+                                                                    "column": 21
+                                                                },
+                                                                "end": {
+                                                                    "line": 12,
+                                                                    "column": 51
+                                                                },
+                                                                "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"
+                                                            },
+                                                            "callee": {
+                                                                "type": "MemberExpression",
+                                                                "start": 207,
+                                                                "end": 220,
+                                                                "loc": {
+                                                                    "start": {
+                                                                        "line": 12,
+                                                                        "column": 21
+                                                                    },
+                                                                    "end": {
+                                                                        "line": 12,
+                                                                        "column": 34
+                                                                    },
+                                                                    "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"
+                                                                },
+                                                                "object": {
+                                                                    "type": "Identifier",
+                                                                    "start": 207,
+                                                                    "end": 214,
+                                                                    "loc": {
+                                                                        "start": {
+                                                                            "line": 12,
+                                                                            "column": 21
+                                                                        },
+                                                                        "end": {
+                                                                            "line": 12,
+                                                                            "column": 28
+                                                                        },
+                                                                        "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js",
+                                                                        "identifierName": "console"
+                                                                    },
+                                                                    "name": "console"
+                                                                },
+                                                                "computed": false,
+                                                                "property": {
+                                                                    "type": "Identifier",
+                                                                    "start": 215,
+                                                                    "end": 220,
+                                                                    "loc": {
+                                                                        "start": {
+                                                                            "line": 12,
+                                                                            "column": 29
+                                                                        },
+                                                                        "end": {
+                                                                            "line": 12,
+                                                                            "column": 34
+                                                                        },
+                                                                        "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js",
+                                                                        "identifierName": "error"
+                                                                    },
+                                                                    "name": "error"
+                                                                }
+                                                            },
+                                                            "arguments": [
+                                                                {
+                                                                    "type": "StringLiteral",
+                                                                    "start": 221,
+                                                                    "end": 236,
+                                                                    "loc": {
+                                                                        "start": {
+                                                                            "line": 12,
+                                                                            "column": 35
+                                                                        },
+                                                                        "end": {
+                                                                            "line": 12,
+                                                                            "column": 50
+                                                                        },
+                                                                        "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/sourceCode.js"
+                                                                    },
+                                                                    "extra": {
+                                                                        "rawValue": "this is error",
+                                                                        "raw": "'this is error'"
+                                                                    },
+                                                                    "value": "this is error"
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "directives": []
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+        "directives": []
+    },
+    "comments": []
+}

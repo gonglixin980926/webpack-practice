@@ -32,4 +32,6 @@ const insertParametersPlugin = ( {types, template} ) =>{
         }
     }
 }
-module.exports = insertParametersPlugin
+exports = {
+    insertParametersPlugin
+}

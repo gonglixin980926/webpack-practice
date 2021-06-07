@@ -8,7 +8,7 @@ const indexJsPath = path.resolve(__dirname, 'output/index.js')
 const indexJsonPath = path.resolve(__dirname, 'output/index.json')
 const sourceCodePath = path.resolve(__dirname, 'sourceCode.js')
 
-const insertParametersPlugin = require('./plugin/insertConsoleInfo.js')
+const { insertParametersPlugin } = require('./plugin/insertConsoleInfo.js')
 
 // console.log 中添加文件名称
 const sourceCodeFile = fs.readFileSync(sourceCodePath)
