@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <iframe src="http://localhost:3001/b" frameborder="0"  width="300"
+    height="200"></iframe>
+    <button onclick="testOneWindowOpen()">点击发送第一个新窗口请求</button>
+    <button onclick="openNewWindow()">打开窗口</button>
+    <button onclick="sendDataToIframe()">向iframe发送数据</button>
+</body>
+<script>
+    var popup = null
+    function receiveMessage(event) {
+        console.log(event.data);
+     if (event.origin !== "http://localhost:3000"){
+            return;
+      }
+    }
+    window.addEventListener("message", receiveMessage, false);
+
+    function openNewWindow(){
+        popup = window.open('http://localhost:3000/b')
+    }
+    function testOneWindowOpen() {
+        setTimeout(function () {
+            console.log('执行定时器任务开始');
+            popup.postMessage("The user is 'bob' and the password is 'secret'", "http://localhost:3000/b");
+            console.log('执行定时器任务结束');
+        },4000);
+    }
+
+    function sendDataToIframe(){
+        var ifram = window.frames[0]
+        console.log(ifram)
+    }
+
+
+    </script>
+</html>
