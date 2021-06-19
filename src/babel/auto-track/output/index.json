@@ -1,1 +1,598 @@
-{"type":"File","start":0,"end":253,"loc":{"start":{"line":1,"column":0},"end":{"line":21,"column":0},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"},"errors":[],"program":{"type":"Program","start":0,"end":253,"loc":{"start":{"line":1,"column":0},"end":{"line":21,"column":0},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"},"sourceType":"module","interpreter":null,"body":[{"type":"ImportDeclaration","start":0,"end":20,"loc":{"start":{"line":1,"column":0},"end":{"line":1,"column":20},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"},"specifiers":[{"type":"ImportDefaultSpecifier","start":7,"end":9,"loc":{"start":{"line":1,"column":7},"end":{"line":1,"column":9},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"},"local":{"type":"Identifier","start":7,"end":9,"loc":{"start":{"line":1,"column":7},"end":{"line":1,"column":9},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js","identifierName":"aa"},"name":"aa"}}],"source":{"type":"StringLiteral","start":15,"end":19,"loc":{"start":{"line":1,"column":15},"end":{"line":1,"column":19},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"},"extra":{"rawValue":"aa","raw":"'aa'"},"value":"aa"}},{"type":"ImportDeclaration","start":21,"end":46,"loc":{"start":{"line":2,"column":0},"end":{"line":2,"column":25},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"},"specifiers":[{"type":"ImportNamespaceSpecifier","start":28,"end":35,"loc":{"start":{"line":2,"column":7},"end":{"line":2,"column":14},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"},"local":{"type":"Identifier","start":33,"end":35,"loc":{"start":{"line":2,"column":12},"end":{"line":2,"column":14},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js","identifierName":"bb"},"name":"bb"}}],"source":{"type":"StringLiteral","start":41,"end":45,"loc":{"start":{"line":2,"column":20},"end":{"line":2,"column":24},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"},"extra":{"rawValue":"bb","raw":"'bb'"},"value":"bb"}},{"type":"ImportDeclaration","start":47,"end":69,"loc":{"start":{"line":3,"column":0},"end":{"line":3,"column":22},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"},"specifiers":[{"type":"ImportSpecifier","start":55,"end":57,"loc":{"start":{"line":3,"column":8},"end":{"line":3,"column":10},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"},"imported":{"type":"Identifier","start":55,"end":57,"loc":{"start":{"line":3,"column":8},"end":{"line":3,"column":10},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js","identifierName":"cc"},"name":"cc"},"local":{"type":"Identifier","start":55,"end":57,"loc":{"start":{"line":3,"column":8},"end":{"line":3,"column":10},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js","identifierName":"cc"},"name":"cc"}}],"source":{"type":"StringLiteral","start":64,"end":68,"loc":{"start":{"line":3,"column":17},"end":{"line":3,"column":21},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"},"extra":{"rawValue":"cc","raw":"'cc'"},"value":"cc"}},{"type":"ImportDeclaration","start":70,"end":82,"loc":{"start":{"line":4,"column":0},"end":{"line":4,"column":12},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"},"specifiers":[],"source":{"type":"StringLiteral","start":77,"end":81,"loc":{"start":{"line":4,"column":7},"end":{"line":4,"column":11},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"},"extra":{"rawValue":"dd","raw":"'dd'"},"value":"dd"}},{"type":"FunctionDeclaration","start":84,"end":125,"loc":{"start":{"line":6,"column":0},"end":{"line":8,"column":1},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"},"id":{"type":"Identifier","start":93,"end":94,"loc":{"start":{"line":6,"column":9},"end":{"line":6,"column":10},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js","identifierName":"a"},"name":"a"},"generator":false,"async":false,"params":[],"body":{"type":"BlockStatement","start":98,"end":125,"loc":{"start":{"line":6,"column":14},"end":{"line":8,"column":1},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"},"body":[{"type":"ExpressionStatement","start":104,"end":123,"loc":{"start":{"line":7,"column":4},"end":{"line":7,"column":23},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"},"expression":{"type":"CallExpression","start":104,"end":122,"loc":{"start":{"line":7,"column":4},"end":{"line":7,"column":22},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"},"callee":{"type":"MemberExpression","start":104,"end":115,"loc":{"start":{"line":7,"column":4},"end":{"line":7,"column":15},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"},"object":{"type":"Identifier","start":104,"end":111,"loc":{"start":{"line":7,"column":4},"end":{"line":7,"column":11},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js","identifierName":"console"},"name":"console"},"computed":false,"property":{"type":"Identifier","start":112,"end":115,"loc":{"start":{"line":7,"column":12},"end":{"line":7,"column":15},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js","identifierName":"log"},"name":"log"}},"arguments":[{"type":"StringLiteral","start":116,"end":121,"loc":{"start":{"line":7,"column":16},"end":{"line":7,"column":21},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"},"extra":{"rawValue":"aaa","raw":"'aaa'"},"value":"aaa"}]}}],"directives":[]}},{"type":"ClassDeclaration","start":127,"end":177,"loc":{"start":{"line":10,"column":0},"end":{"line":14,"column":1},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"},"id":{"type":"Identifier","start":133,"end":134,"loc":{"start":{"line":10,"column":6},"end":{"line":10,"column":7},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js","identifierName":"B"},"name":"B"},"superClass":null,"body":{"type":"ClassBody","start":135,"end":177,"loc":{"start":{"line":10,"column":8},"end":{"line":14,"column":1},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"},"body":[{"type":"ClassMethod","start":141,"end":175,"loc":{"start":{"line":11,"column":4},"end":{"line":13,"column":5},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"},"static":false,"key":{"type":"Identifier","start":141,"end":143,"loc":{"start":{"line":11,"column":4},"end":{"line":11,"column":6},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js","identifierName":"bb"},"name":"bb"},"computed":false,"kind":"method","id":null,"generator":false,"async":false,"params":[],"body":{"type":"BlockStatement","start":146,"end":175,"loc":{"start":{"line":11,"column":9},"end":{"line":13,"column":5},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"},"body":[{"type":"ReturnStatement","start":156,"end":169,"loc":{"start":{"line":12,"column":8},"end":{"line":12,"column":21},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"},"argument":{"type":"StringLiteral","start":163,"end":168,"loc":{"start":{"line":12,"column":15},"end":{"line":12,"column":20},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"},"extra":{"rawValue":"bbb","raw":"'bbb'"},"value":"bbb"}}],"directives":[]}}]}},{"type":"VariableDeclaration","start":179,"end":201,"loc":{"start":{"line":16,"column":0},"end":{"line":16,"column":22},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"},"declarations":[{"type":"VariableDeclarator","start":185,"end":200,"loc":{"start":{"line":16,"column":6},"end":{"line":16,"column":21},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"},"id":{"type":"Identifier","start":185,"end":186,"loc":{"start":{"line":16,"column":6},"end":{"line":16,"column":7},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js","identifierName":"c"},"name":"c"},"init":{"type":"ArrowFunctionExpression","start":189,"end":200,"loc":{"start":{"line":16,"column":10},"end":{"line":16,"column":21},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"},"id":null,"generator":false,"async":false,"params":[],"body":{"type":"StringLiteral","start":195,"end":200,"loc":{"start":{"line":16,"column":16},"end":{"line":16,"column":21},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"},"extra":{"rawValue":"ccc","raw":"'ccc'"},"value":"ccc"}}}],"kind":"const"},{"type":"VariableDeclaration","start":203,"end":252,"loc":{"start":{"line":18,"column":0},"end":{"line":20,"column":1},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"},"declarations":[{"type":"VariableDeclarator","start":209,"end":252,"loc":{"start":{"line":18,"column":6},"end":{"line":20,"column":1},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"},"id":{"type":"Identifier","start":209,"end":210,"loc":{"start":{"line":18,"column":6},"end":{"line":18,"column":7},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js","identifierName":"d"},"name":"d"},"init":{"type":"FunctionExpression","start":213,"end":252,"loc":{"start":{"line":18,"column":10},"end":{"line":20,"column":1},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"},"id":null,"generator":false,"async":false,"params":[],"body":{"type":"BlockStatement","start":225,"end":252,"loc":{"start":{"line":18,"column":22},"end":{"line":20,"column":1},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"},"body":[{"type":"ExpressionStatement","start":231,"end":250,"loc":{"start":{"line":19,"column":4},"end":{"line":19,"column":23},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"},"expression":{"type":"CallExpression","start":231,"end":249,"loc":{"start":{"line":19,"column":4},"end":{"line":19,"column":22},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"},"callee":{"type":"MemberExpression","start":231,"end":242,"loc":{"start":{"line":19,"column":4},"end":{"line":19,"column":15},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"},"object":{"type":"Identifier","start":231,"end":238,"loc":{"start":{"line":19,"column":4},"end":{"line":19,"column":11},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js","identifierName":"console"},"name":"console"},"computed":false,"property":{"type":"Identifier","start":239,"end":242,"loc":{"start":{"line":19,"column":12},"end":{"line":19,"column":15},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js","identifierName":"log"},"name":"log"}},"arguments":[{"type":"StringLiteral","start":243,"end":248,"loc":{"start":{"line":19,"column":16},"end":{"line":19,"column":21},"filename":"/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"},"extra":{"rawValue":"ddd","raw":"'ddd'"},"value":"ddd"}]}}],"directives":[]}}}],"kind":"const"}],"directives":[]},"comments":[]}
+{
+  "type": "File",
+  "start": 0,
+  "end": 253,
+  "loc": {
+    "start": { "line": 1, "column": 0 },
+    "end": { "line": 21, "column": 0 },
+    "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"
+  },
+  "errors": [],
+  "program": {
+    "type": "Program",
+    "start": 0,
+    "end": 253,
+    "loc": {
+      "start": { "line": 1, "column": 0 },
+      "end": { "line": 21, "column": 0 },
+      "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"
+    },
+    "sourceType": "module",
+    "interpreter": null,
+    "body": [
+      {
+        "type": "ImportDeclaration",
+        "start": 0,
+        "end": 20,
+        "loc": {
+          "start": { "line": 1, "column": 0 },
+          "end": { "line": 1, "column": 20 },
+          "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"
+        },
+        "specifiers": [
+          {
+            "type": "ImportDefaultSpecifier",
+            "start": 7,
+            "end": 9,
+            "loc": {
+              "start": { "line": 1, "column": 7 },
+              "end": { "line": 1, "column": 9 },
+              "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"
+            },
+            "local": {
+              "type": "Identifier",
+              "start": 7,
+              "end": 9,
+              "loc": {
+                "start": { "line": 1, "column": 7 },
+                "end": { "line": 1, "column": 9 },
+                "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js",
+                "identifierName": "aa"
+              },
+              "name": "aa"
+            }
+          }
+        ],
+        "source": {
+          "type": "StringLiteral",
+          "start": 15,
+          "end": 19,
+          "loc": {
+            "start": { "line": 1, "column": 15 },
+            "end": { "line": 1, "column": 19 },
+            "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"
+          },
+          "extra": { "rawValue": "aa", "raw": "'aa'" },
+          "value": "aa"
+        }
+      },
+      {
+        "type": "ImportDeclaration",
+        "start": 21,
+        "end": 46,
+        "loc": {
+          "start": { "line": 2, "column": 0 },
+          "end": { "line": 2, "column": 25 },
+          "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"
+        },
+        "specifiers": [
+          {
+            "type": "ImportNamespaceSpecifier",
+            "start": 28,
+            "end": 35,
+            "loc": {
+              "start": { "line": 2, "column": 7 },
+              "end": { "line": 2, "column": 14 },
+              "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"
+            },
+            "local": {
+              "type": "Identifier",
+              "start": 33,
+              "end": 35,
+              "loc": {
+                "start": { "line": 2, "column": 12 },
+                "end": { "line": 2, "column": 14 },
+                "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js",
+                "identifierName": "bb"
+              },
+              "name": "bb"
+            }
+          }
+        ],
+        "source": {
+          "type": "StringLiteral",
+          "start": 41,
+          "end": 45,
+          "loc": {
+            "start": { "line": 2, "column": 20 },
+            "end": { "line": 2, "column": 24 },
+            "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"
+          },
+          "extra": { "rawValue": "bb", "raw": "'bb'" },
+          "value": "bb"
+        }
+      },
+      {
+        "type": "ImportDeclaration",
+        "start": 47,
+        "end": 69,
+        "loc": {
+          "start": { "line": 3, "column": 0 },
+          "end": { "line": 3, "column": 22 },
+          "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"
+        },
+        "specifiers": [
+          {
+            "type": "ImportSpecifier",
+            "start": 55,
+            "end": 57,
+            "loc": {
+              "start": { "line": 3, "column": 8 },
+              "end": { "line": 3, "column": 10 },
+              "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"
+            },
+            "imported": {
+              "type": "Identifier",
+              "start": 55,
+              "end": 57,
+              "loc": {
+                "start": { "line": 3, "column": 8 },
+                "end": { "line": 3, "column": 10 },
+                "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js",
+                "identifierName": "cc"
+              },
+              "name": "cc"
+            },
+            "local": {
+              "type": "Identifier",
+              "start": 55,
+              "end": 57,
+              "loc": {
+                "start": { "line": 3, "column": 8 },
+                "end": { "line": 3, "column": 10 },
+                "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js",
+                "identifierName": "cc"
+              },
+              "name": "cc"
+            }
+          }
+        ],
+        "source": {
+          "type": "StringLiteral",
+          "start": 64,
+          "end": 68,
+          "loc": {
+            "start": { "line": 3, "column": 17 },
+            "end": { "line": 3, "column": 21 },
+            "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"
+          },
+          "extra": { "rawValue": "cc", "raw": "'cc'" },
+          "value": "cc"
+        }
+      },
+      {
+        "type": "ImportDeclaration",
+        "start": 70,
+        "end": 82,
+        "loc": {
+          "start": { "line": 4, "column": 0 },
+          "end": { "line": 4, "column": 12 },
+          "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"
+        },
+        "specifiers": [],
+        "source": {
+          "type": "StringLiteral",
+          "start": 77,
+          "end": 81,
+          "loc": {
+            "start": { "line": 4, "column": 7 },
+            "end": { "line": 4, "column": 11 },
+            "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"
+          },
+          "extra": { "rawValue": "dd", "raw": "'dd'" },
+          "value": "dd"
+        }
+      },
+      {
+        "type": "FunctionDeclaration",
+        "start": 84,
+        "end": 125,
+        "loc": {
+          "start": { "line": 6, "column": 0 },
+          "end": { "line": 8, "column": 1 },
+          "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"
+        },
+        "id": {
+          "type": "Identifier",
+          "start": 93,
+          "end": 94,
+          "loc": {
+            "start": { "line": 6, "column": 9 },
+            "end": { "line": 6, "column": 10 },
+            "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js",
+            "identifierName": "a"
+          },
+          "name": "a"
+        },
+        "generator": false,
+        "async": false,
+        "params": [],
+        "body": {
+          "type": "BlockStatement",
+          "start": 98,
+          "end": 125,
+          "loc": {
+            "start": { "line": 6, "column": 14 },
+            "end": { "line": 8, "column": 1 },
+            "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"
+          },
+          "body": [
+            {
+              "type": "ExpressionStatement",
+              "start": 104,
+              "end": 123,
+              "loc": {
+                "start": { "line": 7, "column": 4 },
+                "end": { "line": 7, "column": 23 },
+                "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"
+              },
+              "expression": {
+                "type": "CallExpression",
+                "start": 104,
+                "end": 122,
+                "loc": {
+                  "start": { "line": 7, "column": 4 },
+                  "end": { "line": 7, "column": 22 },
+                  "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"
+                },
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 104,
+                  "end": 115,
+                  "loc": {
+                    "start": { "line": 7, "column": 4 },
+                    "end": { "line": 7, "column": 15 },
+                    "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"
+                  },
+                  "object": {
+                    "type": "Identifier",
+                    "start": 104,
+                    "end": 111,
+                    "loc": {
+                      "start": { "line": 7, "column": 4 },
+                      "end": { "line": 7, "column": 11 },
+                      "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js",
+                      "identifierName": "console"
+                    },
+                    "name": "console"
+                  },
+                  "computed": false,
+                  "property": {
+                    "type": "Identifier",
+                    "start": 112,
+                    "end": 115,
+                    "loc": {
+                      "start": { "line": 7, "column": 12 },
+                      "end": { "line": 7, "column": 15 },
+                      "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js",
+                      "identifierName": "log"
+                    },
+                    "name": "log"
+                  }
+                },
+                "arguments": [
+                  {
+                    "type": "StringLiteral",
+                    "start": 116,
+                    "end": 121,
+                    "loc": {
+                      "start": { "line": 7, "column": 16 },
+                      "end": { "line": 7, "column": 21 },
+                      "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"
+                    },
+                    "extra": { "rawValue": "aaa", "raw": "'aaa'" },
+                    "value": "aaa"
+                  }
+                ]
+              }
+            }
+          ],
+          "directives": []
+        }
+      },
+      {
+        "type": "ClassDeclaration",
+        "start": 127,
+        "end": 177,
+        "loc": {
+          "start": { "line": 10, "column": 0 },
+          "end": { "line": 14, "column": 1 },
+          "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"
+        },
+        "id": {
+          "type": "Identifier",
+          "start": 133,
+          "end": 134,
+          "loc": {
+            "start": { "line": 10, "column": 6 },
+            "end": { "line": 10, "column": 7 },
+            "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js",
+            "identifierName": "B"
+          },
+          "name": "B"
+        },
+        "superClass": null,
+        "body": {
+          "type": "ClassBody",
+          "start": 135,
+          "end": 177,
+          "loc": {
+            "start": { "line": 10, "column": 8 },
+            "end": { "line": 14, "column": 1 },
+            "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"
+          },
+          "body": [
+            {
+              "type": "ClassMethod",
+              "start": 141,
+              "end": 175,
+              "loc": {
+                "start": { "line": 11, "column": 4 },
+                "end": { "line": 13, "column": 5 },
+                "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"
+              },
+              "static": false,
+              "key": {
+                "type": "Identifier",
+                "start": 141,
+                "end": 143,
+                "loc": {
+                  "start": { "line": 11, "column": 4 },
+                  "end": { "line": 11, "column": 6 },
+                  "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js",
+                  "identifierName": "bb"
+                },
+                "name": "bb"
+              },
+              "computed": false,
+              "kind": "method",
+              "id": null,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 146,
+                "end": 175,
+                "loc": {
+                  "start": { "line": 11, "column": 9 },
+                  "end": { "line": 13, "column": 5 },
+                  "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"
+                },
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "start": 156,
+                    "end": 169,
+                    "loc": {
+                      "start": { "line": 12, "column": 8 },
+                      "end": { "line": 12, "column": 21 },
+                      "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"
+                    },
+                    "argument": {
+                      "type": "StringLiteral",
+                      "start": 163,
+                      "end": 168,
+                      "loc": {
+                        "start": { "line": 12, "column": 15 },
+                        "end": { "line": 12, "column": 20 },
+                        "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"
+                      },
+                      "extra": { "rawValue": "bbb", "raw": "'bbb'" },
+                      "value": "bbb"
+                    }
+                  }
+                ],
+                "directives": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "VariableDeclaration",
+        "start": 179,
+        "end": 201,
+        "loc": {
+          "start": { "line": 16, "column": 0 },
+          "end": { "line": 16, "column": 22 },
+          "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 185,
+            "end": 200,
+            "loc": {
+              "start": { "line": 16, "column": 6 },
+              "end": { "line": 16, "column": 21 },
+              "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 185,
+              "end": 186,
+              "loc": {
+                "start": { "line": 16, "column": 6 },
+                "end": { "line": 16, "column": 7 },
+                "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js",
+                "identifierName": "c"
+              },
+              "name": "c"
+            },
+            "init": {
+              "type": "ArrowFunctionExpression",
+              "start": 189,
+              "end": 200,
+              "loc": {
+                "start": { "line": 16, "column": 10 },
+                "end": { "line": 16, "column": 21 },
+                "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"
+              },
+              "id": null,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "StringLiteral",
+                "start": 195,
+                "end": 200,
+                "loc": {
+                  "start": { "line": 16, "column": 16 },
+                  "end": { "line": 16, "column": 21 },
+                  "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"
+                },
+                "extra": { "rawValue": "ccc", "raw": "'ccc'" },
+                "value": "ccc"
+              }
+            }
+          }
+        ],
+        "kind": "const"
+      },
+      {
+        "type": "VariableDeclaration",
+        "start": 203,
+        "end": 252,
+        "loc": {
+          "start": { "line": 18, "column": 0 },
+          "end": { "line": 20, "column": 1 },
+          "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 209,
+            "end": 252,
+            "loc": {
+              "start": { "line": 18, "column": 6 },
+              "end": { "line": 20, "column": 1 },
+              "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 209,
+              "end": 210,
+              "loc": {
+                "start": { "line": 18, "column": 6 },
+                "end": { "line": 18, "column": 7 },
+                "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js",
+                "identifierName": "d"
+              },
+              "name": "d"
+            },
+            "init": {
+              "type": "FunctionExpression",
+              "start": 213,
+              "end": 252,
+              "loc": {
+                "start": { "line": 18, "column": 10 },
+                "end": { "line": 20, "column": 1 },
+                "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"
+              },
+              "id": null,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 225,
+                "end": 252,
+                "loc": {
+                  "start": { "line": 18, "column": 22 },
+                  "end": { "line": 20, "column": 1 },
+                  "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"
+                },
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 231,
+                    "end": 250,
+                    "loc": {
+                      "start": { "line": 19, "column": 4 },
+                      "end": { "line": 19, "column": 23 },
+                      "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"
+                    },
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 231,
+                      "end": 249,
+                      "loc": {
+                        "start": { "line": 19, "column": 4 },
+                        "end": { "line": 19, "column": 22 },
+                        "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"
+                      },
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 231,
+                        "end": 242,
+                        "loc": {
+                          "start": { "line": 19, "column": 4 },
+                          "end": { "line": 19, "column": 15 },
+                          "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"
+                        },
+                        "object": {
+                          "type": "Identifier",
+                          "start": 231,
+                          "end": 238,
+                          "loc": {
+                            "start": { "line": 19, "column": 4 },
+                            "end": { "line": 19, "column": 11 },
+                            "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js",
+                            "identifierName": "console"
+                          },
+                          "name": "console"
+                        },
+                        "computed": false,
+                        "property": {
+                          "type": "Identifier",
+                          "start": 239,
+                          "end": 242,
+                          "loc": {
+                            "start": { "line": 19, "column": 12 },
+                            "end": { "line": 19, "column": 15 },
+                            "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js",
+                            "identifierName": "log"
+                          },
+                          "name": "log"
+                        }
+                      },
+                      "arguments": [
+                        {
+                          "type": "StringLiteral",
+                          "start": 243,
+                          "end": 248,
+                          "loc": {
+                            "start": { "line": 19, "column": 16 },
+                            "end": { "line": 19, "column": 21 },
+                            "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-track/sourceCode.js"
+                          },
+                          "extra": { "rawValue": "ddd", "raw": "'ddd'" },
+                          "value": "ddd"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "directives": []
+              }
+            }
+          }
+        ],
+        "kind": "const"
+      }
+    ],
+    "directives": []
+  },
+  "comments": []
+}
