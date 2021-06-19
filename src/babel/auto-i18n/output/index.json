@@ -1,0 +1,146 @@
+{
+  "type": "File",
+  "start": 0,
+  "end": 50,
+  "loc": {
+    "start": { "line": 1, "column": 0 },
+    "end": { "line": 2, "column": 36 },
+    "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-i18n/sourceCode.js"
+  },
+  "errors": [],
+  "program": {
+    "type": "Program",
+    "start": 0,
+    "end": 50,
+    "loc": {
+      "start": { "line": 1, "column": 0 },
+      "end": { "line": 2, "column": 36 },
+      "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-i18n/sourceCode.js"
+    },
+    "sourceType": "script",
+    "interpreter": null,
+    "body": [
+      {
+        "type": "VariableDeclaration",
+        "start": 0,
+        "end": 13,
+        "loc": {
+          "start": { "line": 1, "column": 0 },
+          "end": { "line": 1, "column": 13 },
+          "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-i18n/sourceCode.js"
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 6,
+            "end": 13,
+            "loc": {
+              "start": { "line": 1, "column": 6 },
+              "end": { "line": 1, "column": 13 },
+              "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-i18n/sourceCode.js"
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 6,
+              "end": 7,
+              "loc": {
+                "start": { "line": 1, "column": 6 },
+                "end": { "line": 1, "column": 7 },
+                "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-i18n/sourceCode.js",
+                "identifierName": "a"
+              },
+              "name": "a"
+            },
+            "init": {
+              "type": "StringLiteral",
+              "start": 10,
+              "end": 13,
+              "loc": {
+                "start": { "line": 1, "column": 10 },
+                "end": { "line": 1, "column": 13 },
+                "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-i18n/sourceCode.js"
+              },
+              "extra": { "rawValue": "2", "raw": "'2'" },
+              "value": "2"
+            }
+          }
+        ],
+        "kind": "const"
+      },
+      {
+        "type": "VariableDeclaration",
+        "start": 14,
+        "end": 50,
+        "loc": {
+          "start": { "line": 2, "column": 0 },
+          "end": { "line": 2, "column": 36 },
+          "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-i18n/sourceCode.js"
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 20,
+            "end": 50,
+            "loc": {
+              "start": { "line": 2, "column": 6 },
+              "end": { "line": 2, "column": 36 },
+              "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-i18n/sourceCode.js"
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 20,
+              "end": 21,
+              "loc": {
+                "start": { "line": 2, "column": 6 },
+                "end": { "line": 2, "column": 7 },
+                "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-i18n/sourceCode.js",
+                "identifierName": "b"
+              },
+              "name": "b"
+            },
+            "init": {
+              "type": "StringLiteral",
+              "start": 41,
+              "end": 50,
+              "loc": {
+                "start": { "line": 2, "column": 27 },
+                "end": { "line": 2, "column": 36 },
+                "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-i18n/sourceCode.js"
+              },
+              "leadingComments": [
+                {
+                  "type": "CommentBlock",
+                  "value": "i18n-disable",
+                  "start": 25,
+                  "end": 41,
+                  "loc": {
+                    "start": { "line": 2, "column": 11 },
+                    "end": { "line": 2, "column": 27 },
+                    "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-i18n/sourceCode.js"
+                  }
+                }
+              ],
+              "extra": { "rawValue": "content", "raw": "'content'" },
+              "value": "content"
+            }
+          }
+        ],
+        "kind": "const"
+      }
+    ],
+    "directives": []
+  },
+  "comments": [
+    {
+      "type": "CommentBlock",
+      "value": "i18n-disable",
+      "start": 25,
+      "end": 41,
+      "loc": {
+        "start": { "line": 2, "column": 11 },
+        "end": { "line": 2, "column": 27 },
+        "filename": "/Users/allen/Desktop/studySpace/webpack/src/babel/auto-i18n/sourceCode.js"
+      }
+    }
+  ]
+}
