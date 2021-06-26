@@ -14,5 +14,5 @@ class Bird extends Animal{
   }
 }
 
-const a = new Bird();
-console.log(a);
+// const a = new Bird();
+// console.log(a);

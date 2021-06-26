@@ -121,10 +121,10 @@ class testClass {
 }
 
 
-const b = new testClass();
+// const b = new testClass();
 
-b.test();
-b.test();
+// b.test();
+// b.test();
 
 
 
