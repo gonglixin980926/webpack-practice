@@ -51,13 +51,7 @@ module.exports = {
         ]
       },
       {
-        //加载ts
         test: /\.tsx?$/,
-        use: 'ts-loader',
-        exclude: /node_modules/
-      },
-      {
-        test: /\.ts$/,
         loader: 'ts-loader', // or 'awesome-typescript-loader'
         options: {
           // make sure not to set `transpileOnly: true` here, otherwise it will not work
