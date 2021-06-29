@@ -12,3 +12,4 @@ import './mobx_study/recation';
 // union to intersection of functions
 
 import './test';
+import './chore/promiseDemo'

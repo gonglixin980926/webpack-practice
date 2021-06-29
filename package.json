@@ -9,7 +9,7 @@
     "lint-fix-type": "eslint src/ --ext .ts --fix --fix-type suggestion,layout,problem",
     "test": "jest",
     "build": "webpack --config webpack_config/webpack.config.js",
-    "start": "webpack-dev-server --open --progress --watch --hot --config webpack_config/webpack.config.js ",
+    "start": "webpack-dev-server --open --progress --hot --config webpack_config/webpack.config.js ",
     "server": "node server/server.js",
     "prepare": "husky install"
   },

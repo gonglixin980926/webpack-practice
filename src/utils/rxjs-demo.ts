@@ -1,8 +1,5 @@
 import { Observable, Operator, interval, Subscription, fromEvent, from, Subject, of, bindCallback } from 'rxjs';
 import{ take, map, merge, multicast }from 'rxjs/operators';
-import axios from 'axios';
-import { computed } from 'mobx';
-import { createPropDecorator } from 'mobx/lib/internal';
 
 
 interval(500).pipe(take(4)).subscribe( data=>{
@@ -81,24 +78,24 @@ clicks$.subscribe(sub);
 // const subject = new Subject();
 // const multicasted = source.pipe(multicast(subject));
 // let subscription1: any, subscription2: any, subscriptionConnect: any;
- 
+
 // subscription1 = multicasted.subscribe({
 //   next: (v) => console.log(`observerA: ${v}`)
 // });
 // // We should call `connect()` here, because the first
 // // subscriber to `multicasted` is interested in consuming values
 // // subscriptionConnect = multicasted.connect();
- 
+
 // setTimeout(() => {
 //   subscription2 = multicasted.subscribe({
 //     next: (v) => console.log(`observerB: ${v}`)
 //   });
 // }, 600);
- 
+
 // setTimeout(() => {
 //   subscription1.unsubscribe();
 // }, 1200);
- 
+
 // // We should unsubscribe the shared Observable execution here,
 // // because `multicasted` would have no more subscribers after this
 // setTimeout(() => {
@@ -119,4 +116,3 @@ const boundSomeFunction = bindCallback(someFunction);
 boundSomeFunction(1,2).subscribe(values => {
   console.log(values); // [5, 'some string', {someProperty: 'someValue'}]
 });
-

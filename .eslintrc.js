@@ -26,21 +26,9 @@ module.exports = {
 		"no-mixed-spaces-and-tabs": ["off"],
 		'@typescript-eslint/indent': 0,
 		'no-mixed-spaces-and-tabs':0,
-		'indent': [
-			'error',
-			2
-		],
 		'linebreak-style': [
 			'error',
 			'unix'
-		],
-		'quotes': [
-			'error',
-			'single'
-		],
-		'semi': [
-			'error',
-			'always'
 		]
 	},
 	"overrides": [
