@@ -16,7 +16,7 @@ async function proTest() {
     console.log("----")
 }
 
-function rejectionHandl() {
+function rejectionhandled() {
     // 当前帧未处理的promise, 当前
     window.addEventListener("unhandledrejection", event => { // 没有reject时会打印
         console.warn(`UNHANDLED PROMISE REJECTION: ${event.reason}`);
@@ -24,6 +24,7 @@ function rejectionHandl() {
     window.addEventListener("rejectionhandled", event => { // promise 被reject 且有rejection
         console.log("Promise rejected; reason: ");
         console.log(event)
+        // event.preventDefault()
     }, false);
     // proTest()
 
@@ -37,6 +38,8 @@ function rejectionHandl() {
     })
 
 }
+rejectionhandled()
+
 function executionOrder() {
     // 同步任务 -> 微任务 -> 宏任务
     setTimeout(()=>{
@@ -53,4 +56,30 @@ function executionOrder() {
     })
     console.log("主队列")
 }
-executionOrder()
+
+async function proResolveTest() {
+    await new Promise((res,rej)=>{
+        console.log("before res")
+        res()
+        console.log("after res")
+    })
+    console.log("after pro")
+}
+const wait = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+function pro() {
+    // 结合reduce实现一个顺序调用
+    // const pro1 = new Promise<string>((res,rej)=>{
+    //     res()
+    // })
+    // const pro2 = new Promise<string>((res)=>res())
+    // const pro3 = new Promise<string>((res)=>res())
+    // const allPro = [pro2, pro3]
+    // allPro.reduce(async (pre, current)=>{
+    //     return pre.then(current)
+    // },pro1)
+    // allPro.reduce<Promise<string>>((p, f) => p.then(f), Promise.resolve('ww'))
+    // .then(result3 => { /* use result3 */ });
+}
+
+// proResolveTest()
