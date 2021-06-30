@@ -82,4 +82,18 @@ function pro() {
     // .then(result3 => { /* use result3 */ });
 }
 
+
+async function proD() {
+    const a = await new Promise((res,rej)=>{
+        setTimeout(res,2000,{
+            name:'string',
+            age: 20
+        })
+    }).then((res)=>{
+        console.log(res)
+    })
+    console.log("----")
+}
+
+proD()
 // proResolveTest()
