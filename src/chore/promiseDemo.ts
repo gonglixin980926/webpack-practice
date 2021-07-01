@@ -95,5 +95,15 @@ async function proD() {
     console.log("----")
 }
 
-proD()
+// proD()
 // proResolveTest()
+
+async function proNoResolve() {
+    const a = new Promise(()=>{
+        console.log("bb")
+    }).then(res=>{
+        console.log("输出")
+    })
+    console.log(a["[[PromiseState]]"])
+}
+proNoResolve()
