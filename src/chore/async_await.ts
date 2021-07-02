@@ -18,13 +18,14 @@ async function hello() {
 
 async function hi() {
     return await new Promise((res,rej)=>{
-        rej("swww")
+        // rej("swww")
+        res("sss")
     })
     return a
 }
-hi().then((res)=>{
-    console.log(res)
-})
+// hi().then((res)=>{
+//     console.log(res)
+// })
 // hello().then(()=>{
 //     console.log("async finished")
 // })

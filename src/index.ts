@@ -12,6 +12,8 @@
 // union to intersection of functions
 
 // import './test';
-import './chore/promiseDemo'
+// import './chore/promiseDemo'
 
-import './chore/async_await'
+// import './chore/async_await'
+
+import './promiseImplement/simpleDemo'
