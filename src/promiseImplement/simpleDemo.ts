@@ -45,7 +45,7 @@ class MyPromise2{
     value = null
     constructor(fn){
         console.error(" new promise ")
-        fn(this._resolve.bind(this))
+        fn(this._resolve.bind(this), this._reject.bind(this))
     }
 
     then(onFulfilled){
@@ -99,6 +99,10 @@ class MyPromise2{
         this.state = MyPromiseState.FULFILLED
         this.value = value
         this.callbacks.forEach( callback => this._handle(callback))
+    }
+
+    _reject(value){
+        // 处理逻辑和 resolve 相同
     }
 }
 
@@ -183,7 +187,7 @@ function myPro(){
     })
 }
 
-myPro()
+// myPro()
 
 function myPromiseTest() {
     //Promise应用
@@ -213,3 +217,18 @@ function myPromiseTest() {
     // })
 }
 // myPromiseTest()
+
+function catchPro(){
+    const proA = new Promise((res,rej)=>{
+        rej("222")
+    })
+    const proB = proA.catch(res=>{
+        console.log("catche")
+        return '22'
+    })
+    const proC = proB.finally(()=>{
+        console.log("finally")
+    })
+    console.log(proB === proC)
+}
+catchPro()
